@@ -31,6 +31,7 @@
     font-family: 'Inter';
 }
 .textBlack{
+    
     color: black;
 }
 .textGray{
@@ -175,6 +176,16 @@
   
 .content:hover .overlay {
     opacity: 1;
+}
+
+textBlack{
+    color: black;
+}
+
+
+.textBlack:hover{
+    color: #000;
+    text-decoration: none;
 }
   
 .text {
