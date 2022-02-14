@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="icon" class="logo-hov" href="images/logo.png"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://www.dafontfree.net/embed/bXlyaWFkLXByby1ib2xkJmRhdGEvNDYvbS82MTIzNS9NeXJpYWRQcm8tQm9sZC5vdGY" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home Page</title>
+</head>
+
+<body>
+    <div class="firstSection">
+        <img src="images/imgFirst.png" class="imgFirst d-block mb-5">
+        <div class="container wow fadeIn" data-wow-offset="100">
+            <div class="d-flex justify-content-between">
+                <!-- <a href="index.html"><img src="images/logo.png" class="logo"></a> -->
+                <img src='images/logoo.svg' width='auto' height='60px' onmouseover="this.src='images/logo-hov.svg';" onmouseout="this.src='images/logoo.svg';" />
+
+                
+                <nav class="navbar navbar-dark">
+                  <div class="container-fluid">
+                    <button class="navbar-toggler textBlack" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <span class="fa fa-bars textBlack fa-lg py-2"></span>
+                    </button>
+                  </div>
+                </nav>
+            </div>
+            <div class="row pt-4">
+                <div class="col-md-10 pt-1">
+                    <h1 class="textLg fw-bold pb-2">AN <span class="yellowMarkWhite">AWARD-WINNING</span>  DESIGN FIRM <br> WORKING ACROSS 
+                        <span class="text-decoration-underline cursorPointer" onmouseover="document.getElementById('imgBrand').src='images/hover3.png'"
+                        onmouseout="document.getElementById('imgBrand').src='images/rectangle.png'"
+                        >ARCHITECTURE,</span><span class="text-decoration-underline cursorPointer" onmouseover="document.getElementById('imgBrand').src='images/hover1.png'"
+                        onmouseout="document.getElementById('imgBrand').src='images/rectangle.png'"> INTERIOR</span> & <span class="text-decoration-underline cursorPointer" 
+                        onmouseover="document.getElementById('imgBrand').src='images/hover2.png'"
+                        onmouseout="document.getElementById('imgBrand').src='images/rectangle.png'">BRAND DESIGN.</span> </h1>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal modalMenu fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content pt-lg-3 pb-lg-5 px-lg-5">
+                        <div class="modal-header border-0">
+                            <h5 class="modal-title" id="exampleModalLabel">
+                                <img src="images/tdf.png">
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="d-flex justify-content-between">
+                                    <div class="w-100">
+                                        <h2 class="textMob pt-2"><a href="about-us.html" class="textBlack fw-bold text-decoration-none linkHover">We Are</a></h2>
+                                            <h2 class="textMob pt-2"><a href="works.html" class="textBlack fw-bold text-decoration-none linkHover">Our Work</a></h2>
+                                            <h2 class="textMob pt-2"><a href="studios.html" class="textBlack fw-bold text-decoration-none linkHover">Our Studios</a></h2>
+                                            <h2 class="textMob pt-2"><a href="humans.html" class="textBlack fw-bold text-decoration-none linkHover">Our Humans</a></h2>
+                                            <h2 class="textMob pt-2"><a href="press.html" class="textBlack fw-bold text-decoration-none linkHover">Our Press</a></h2>
+                                            <h2 class="textMob pt-2"><a href="contact-us.html" class="textBlack fw-bold text-decoration-none linkHover">Talk To Us</a></h2>
+                                    </div>
+                                    <div class="w-100 rightText">
+                                        <div class="d-flex justify-content-center">
+                                            <div>
+                                                <p class="text18 fw-bold">Address</p>
+                                                <p class="text18 mb-1">157, 26th of July Street </p>
+                                                <p class="text18 mb-1">Zamalek, 11932</p>
+                                                <p class="text18">Cairo, Egypt</p>
+                                                <p class="text18 fw-bold">Socials</p>
+                                                <p class="text18 mb-1"><a href="https://pin.it/3YKkMtW"class="textBlack text-decoration-none" href="#">Pinterest</a> </p>
+                                                <p class="text18 mb-1"><a href="https://www.instagram.com/tdfplus/?hl=en"class="textBlack text-decoration-none" href="#">Instagram</a> </p>
+                                                <p class="text18 mb-1"><a href="#"class="textBlack text-decoration-none" href="#">Linkedin</a> </p>
+
+                                                <p class="text18 mb-1"><a class="textBlack text-decoration-none" href="https://www.facebook.com/TDFPLUS.DESIGN">Facebook</a> </p>
+                                                <!-- <p class="text18"><a class="textBlack text-decoration-none" href="#">Twitter</a> </p> -->
+                                                <p class="text18 fw-bold">Contact Us</p>
+                                                <p class="text18 mb-1"><a class="textBlack text-decoration-none" href="mailto:hello@tdfplus.design">hello@tdfplus.design</a> </p>
+                                                <p class="text18 mb-1"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-end">
+                <div class="col-lg-1 pt-lg-5">
+                    <div class="d-none d-lg-block">
+                        <br><br>
+                        <a href="#sec-2">
+                            <i class="fa fa-long-arrow-alt-down textBlack fa-2x pt-lg-5"></i>
+                        </a>
+                        <!-- <p class="pt-lg-5">
+                        </p>
+                        <a href="#sec-2">
+                            <div class="scroll-down"></div>
+                        </a> -->
+                    </div>
+                </div>
+                <div class="col-lg-9 wow fadeIn" data-wow-delay="1s" data-wow-duration="2s">
+                    <img src="images/group-33.png" class="imgAbsolute wow rotateIn" data-wow-delay="1.5s" data-wow-duration="2s" data-wow-iteration="2">
+                    <img src="images/rectangle.png" id="imgBrand" class="imgFirst ms-auto d-block wow fadeIn" >
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bgGray prominentSection pt-3" id="sec-2">
+        <img src="images/plus.png" class="img-fluid d-none d-lg-block">
+        <div class="container pt-5">
+            <div class="row justify-content-between wow fadeIn" data-wow-delay="1s">
+                <div class="col-lg-2 pb-5">
+                </div>
+                <div class="col-lg-9 pt-4">
+                    <h1 class="textLg fw-bold pb-3">WE ARE A PROMINENT PLAYER IN LIFESTYLE DESIGN.</h1>
+                    <h4 class="text-muted ps-lg-5">Est. In 2010 by Eng. Hala Saleh, <b>TDF+</b> is passionately driven by a constant state of growth as individuals & as a team; becoming a staple in the design industry and having a progressive approach in designing for people, spaces & brands.  </h4>
+                </div>
+            </div>
+            <div class="row py-5 wow fadeIn" data-wow-delay="1s">
+                <div class="col-lg-9 col-md-9">
+                    <h1 class="textLg fw-bold">OUR WORK — A FEW SELECT PROJECTS</h1>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="bgImage pt-3">
+                        <a href="works.html" class="textBlack textMediaLarge d-block pt-5 text-center text-decoration-none">
+                            <span class="bgYellow">VIEW ALL PROJECTS <i class="fa fa-long-arrow-alt-right ps-3"></i></span></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Swiper -->
+            <section class="most-viewed pb-4">
+                <div class="container wow fadeIn" data-wow-delay="0.5s" data-wow-offset="50">
+                    <!-- Swiper -->
+                    <div class="swiper-container overflow-hidden">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="content">
+                                    <a href="lsallegria.html">
+                                        <img src="images/projects/lsallegria1.png" class="image">
+                                        <div class="overlay">
+                                            <div class="text">
+                                                <h4 class="text-muted">City Homes</h4>
+                                                <h2 class="fw-bold">LS ALLEGRIA</h2> 
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="content">
+                                    <a href="arabella.html">
+                                        <img src="images/projects/arabella1.png" class="image">
+                                        <div class="overlay">
+                                            <div class="text">
+                                                <h4 class="text-muted">City Homes</h4>
+                                                <h2 class="fw-bold">AF ARABELLA </h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="content">
+                                    <a href="huawei.html">
+                                        <img src="images/projects/huawei1.png" class="image">
+                                        <div class="overlay">
+                                            <div class="text">
+                                                <h4 class="text-muted">Commercial</h4>
+                                                <h2 class="fw-bold">HUAWEI RESTAURANT </h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="content">
+                                    <a href="fekr.html">
+                                        <img src="images/projects/fekr1.png" class="image">
+                                        <div class="overlay">
+                                            <div class="text">
+                                                <h4 class="text-muted">Popus</h4>
+                                                <h2 class="fw-bold text-uppercase"> Fekretak Sherketak </h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="content">
+                                    <a href="ain.html">
+                                        <img src="images/projects/ain1.png" class="image">
+                                        <div class="overlay">
+                                            <div class="text">
+                                                <h4 class="text-muted">Real Estate Consultation</h4>
+                                                <h2 class="fw-bold">AZHA - Ain Al Sokhna</h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="content">
+                                    <a href="baky.html">
+                                        <img src="images/projects/baky1.png" class="image">
+                                        <div class="overlay">
+                                            <div class="text">
+                                                <h4 class="text-muted">Workspaces</h4>
+                                                <h2 class="fw-bold">BAKY Hospitality</h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination mt-3 position-relative"></div>
+                    </div>
+                </div>
+            </section>
+            <div class="row justify-content-around pb-5 pt-3">
+                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.5s" data-wow-offset="100">
+                    <h1 class="text-uppercase fw-bold">Over 50+ projects delivered</h1>
+                    <h6 class="textGray pt-2">For each project, we seek to choreograph the human experience in a way that is simultaneously pragmatic & inspiring.</h6>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-delay="1s" data-wow-offset="100">
+                    <h1 class="textLg fw-bold">12+</h1>
+                    <h5 class="fwMediam textBlack py-2">YEARS</h5>
+                    <h6 class="textGray pb-2">Powered by Architects, Designers, Creators & Visionaries – but most all Humans.</h6>
+                    <h1 class="textLg fw-bold pt-4">4+</h1>
+                    <h5 class="fwMediam textBlack py-2">AWARDS</h5>
+                    <h6 class="textGray">Did we forget to mention that we are an award-winning firm?</h6>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-delay="1.5s" data-wow-offset="100">
+                    <h1 class="textLg fw-bold">60+</h1>
+                    <h5 class="fwMediam textBlack py-2">PARTNERS</h5>
+                    <h6 class="textGray">Collaboration will forever be one of our core values and strengths.</h6>
+                    <h1 class="textLg fw-bold pt-5">100000+ </h1>
+                    <h5 class="fwMediam textBlack py-2">COFFEE DRINKS</h5>
+                    <h6 class="textGray">Fueling our creativity since 2010!</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ====================== -->
+    <div class="container pt-5 pb-5 wow fadeIn" data-wow-delay="0.5s" data-wow-offset="100">
+        <h1 class="textLg fw-bold">WE BELIEVE <span class="yellowMarkWhite">WE ARE WHAT WE DO,</span><br> NOT JUST WHAT WE SAY.</h1>
+        <h3 class="textGray py-3 ps-lg-5">Rather that showcasing just services, our unconventional studios were created to reflect the language of our design process & lifestyle.</h3>
+        <a href="studios.html" class="textBlack fw-bold text-decoration-none ps-lg-5 ms-lg-5">LEARN MORE ABOUT OUR STUDIOS <i class="fa fa-long-arrow-alt-right ps-3"></i></a>
+    </div>
+    <!-- ====================== TDF =============== -->
+    <div class="container mb-4 pt-3 wow fadeIn" data-wow-delay="1s" data-wow-offset="100">
+        <div class="absoluteLarge d-xl-block d-none"></div>
+        <div class="bgYellow p-5">
+            <h1><b>TDF</b> Studios</h1>
+            <div class="row justify-content-between borderYellow pt-4 pb-3">
+                <div class="col-lg-6">
+                    <p>To excel in the creative realm, designers shouldn’t be constrained to a singular expertise</p>
+                </div>
+                <div class="col-lg-4 text-end">
+                    <a href="studios.html" class="textBlack fw-bold text-decoration-none">LEARN MORE ABOUT OUR STUDIOS <i class="fa fa-long-arrow-alt-right ps-3"></i></a>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="fw-bold">01. <br>TDF SPACES</h4>
+                    <p class="textGray">A team of designers & Architects curating spaces for people & brands.</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="fw-bold">02. <br>TDF BOUTIQUE</h4>
+                    <p class="textGray">A team of Creative Designers & FF&A realizing the conceptual experience of your space, but also creating moments within the space.</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="fw-bold">03. <br>TDF BRANDS</h4>
+                    <p class="textGray">A creative studio that crafts brand experiences through narrating stories for people, spaces & brands.</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="fw-bold">04. <br>TDF CONSTRUCTION</h4>
+                    <p class="textGray">A team of Technical Architects & Site Engineers bringing your designs to Life.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========= Footer =========== -->
+    <footer class="bgBlack">
+        <div class="container pt-5 pb-3">
+            <h1 class="text-uppercase text-white">WANT TO KNOW MORE? <br> WE’D LOVE TO TELL YOU</h1>
+            <div class="row borderBottom mb-3 pb-5 pt-4">
+                <div class="col-lg-8">
+                    <h4 class="text-muted pb-3">
+                        Get in touch with our team, tell us details about your project and we'll help you reach your destination.                    </h4>
+                </div>
+                <div class="col-lg-4 text-end">
+                    <a href="contact-us.html" class="btn btnSend pt-3 pb-4 px-4">TALK TO US
+                        <i class="fa fa-long-arrow-alt-right d-flex float-end pt-1 ps-3"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="row menuFooter pt-5 justify-content-around">
+                <div class="col-lg-3 col-md-5 col-6">
+                    <img src="images/logoFooter.png" class="img-fluid">
+                    <!-- <h1 class="text-white">TDF<sup>+</sup></h1> -->
+                </div>
+                <div class="col-lg-3 col-md-5 col-6 pt-2">
+                    <h6 class="text-white pb-2">OUR STUDIO</h6>
+                    <p class="mb-1">157, 26TH OF JULY STREET </p>
+                    <p class="mb-1">Zamalek, Cairo</p>
+                    <p class="mb-1">Egypt</p>
+                    <p class="mb-1"><a href="mailto:hello@tdfplus.design" class="text-decoration-none">hello@tdf.com</a></p>
+                    <p>020 344 2288</p>
+                </div>
+                <div class="col-lg-3 col-md-5 col-6 pt-2">
+                    <h6 class="text-white pb-2">Links</h6>
+                    <p class="mb-1"><a href="about-us.html" class="text-decoration-none">We Are</a></p>
+                    <p class="mb-1"><a href="wedo.html" class="text-decoration-none">Our Press</a></p>
+                    <p class="mb-1"><a href="works.html" class="text-decoration-none">Our Work</a></p>
+                    <p class="mb-1"><a href="humans.html" class="text-decoration-none">Our Humans</a></p>
+                    <p class="mb-1"><a href="studios.html" class="text-decoration-none">Our Studios</a></p>
+                    <p class="mb-1"><a href="contact-us.html" class="text-decoration-none">Talk To Us</a></p>
+                </div>
+                <div class="col-lg-3 col-md-5 col-6 pt-2">
+                    <h6 class="text-white pb-2">Follow Us</h6>
+                    <p class="mb-1 pt-1">
+                         
+                        <a href="https://www.instagram.com/tdfplus/?hl=en" class="text-decoration-none text-white pe-3"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/TDFPLUS.DESIGN" class="text-decoration-none text-white pe-3"><i class="fab fa-facebook"></i></a>
+                        <a href="mailto:hello@tdfplus.design" class="text-decoration-none text-white"><i class="fa fa-envelope"></i></a>
+                    </p>
+                </div>
+            </div>
+            <p class="pt-4 text-white-50"> 2021 TDF. Made with ❤️ in Cairo</p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    <script src="js/file.js"></script>
+</body>
+
+</html>

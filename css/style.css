@@ -1,0 +1,926 @@
+/* roboto-regular - latin */
+@font-face {
+    font-family: "MyriadPro-Light", "Myriad Pro Light",
+    "Myriad Pro"; 
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/MYRIADPRO-REGULAR.OTF'); /* IE9 Compat Modes */font-weight:100;
+    }
+
+.body{
+    font-family: 'myriad-pro-bold', sans-serif;
+    cursor: cell;
+
+}
+
+/* .logo{
+    background-image: url('../images/logo.png');
+    height: auto;
+    width: auto;
+    display: ;
+} */
+
+ .logo:hover{
+    display: block; 
+    background-image: url("../images/logo-hov.svg"); 
+    width: 192px;
+    height: 66px;
+} 
+
+.txtInter{
+    font-family: 'Inter';
+}
+.textBlack{
+    color: black;
+}
+.textGray{
+    color: #000;
+    opacity: 0.6;
+}
+.fwMediam{
+    font-size: 21px;
+}
+.borderYellow{
+    border-bottom: 1px solid #d3c832;
+    font-family: 'MyriadPro';
+}
+.bgGray{
+    background-color:#f0f0f0;
+}
+.txtSmall{
+    font-size: 14px;
+}
+.text18{
+    font-size: 18px;
+}
+.txtRed{
+    color: #f48673;
+}
+.table-responsive thead th{
+    border-color: #fff !important;
+}
+.table-responsive tbody td{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #5a5656;
+}
+/* ===================================== Menu =================== */
+.navbar-toggler:focus ,.navbar-toggler:active{
+    box-shadow: none;
+    border: none;
+}
+.modalMenu .modal-dialog{
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0rem auto;
+}
+.modalMenu .modal-content{
+    height: 100vh;
+    overflow: auto;
+}
+.linkHover:hover{
+    color: black;
+    /* background-color: #d3c832; */
+    background: linear-gradient(to top, white 55%, #fbee34 52%, #fbee34 42%, #fbee34 82%);
+    /* background: linear-gradient(to top, white 60%, #fbee34 18%, #fbee34 70%, #fbee34 82%); */
+    padding-bottom: 0.5rem;
+    background-position: 2rem 1.5rem;
+}
+.activeStudios{
+    background-position: 2rem 1rem;
+    color: black;
+    background: linear-gradient(to bottom, white 34%, #fbee34 44%, #fbee34 70%, #fbee34 82%);
+}
+.textMob a{
+    font-size: 2.5rem;
+    line-height: 4rem;
+}
+/* ================================================= */
+.imgFirst{
+    width: 100%;
+    object-fit: cover;
+    max-height: 600px;
+}
+.cursorPointer{
+    cursor: pointer;
+}
+.imgAbsolute{
+    mix-blend-mode: multiply;
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-bottom: -6rem;
+    margin-right: 4rem;
+}
+.firstSection{
+    background: url(../images/backgroundwhite.png) repeat;
+}
+.textAbsolute{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+.absoluteLarge{
+    position: absolute;
+    background: url(../images/vertical.png) repeat;
+    height: 400px;
+    width: 5rem;
+    left: -2rem;
+}
+.bgImage{
+    background: url(../images/plus.png) repeat;
+    height: 150px;
+    padding: 0rem 4rem;
+    position: absolute;
+    right: 0;
+}
+.prominentSection{
+    margin-top: -7rem;
+}
+.content {
+    position: relative;
+}
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 580px;
+    object-fit: cover;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.imageProject{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(36, 41, 44,0.8);
+}
+  
+.content:hover .overlay {
+    opacity: 1;
+}
+  
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    text-transform: uppercase;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/* ========================== TDF Studios ================== */
+.bgYellow{
+    background-color: #f9ed30;
+}
+.bgYellow p{
+    color: black;
+    opacity: 0.6;
+}
+#more {display: none;}
+/* ========================== page studios ================== */
+.sectionStudios{
+    margin-top: -7rem;
+}
+.imgPress{
+    margin-top: -10rem;
+}
+.imagePressNews{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.imgStudios{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.imgSpaces{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.btnBlack{
+    background-color: black;
+    height: 50px;
+    color: white;
+}
+.btnBlack:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.bgWhitePlus{
+    background: url(../images/backgroundwhite.png) repeat;
+}
+.width75{
+    width: 75%;
+}
+/* ========================== Footer ======================== */
+.bgBlack{
+    background-color: black;
+}
+footer h1{
+    font-size: 41px;
+    font-weight: 600;
+}
+.btnSend{
+    border: solid 1px #000;
+    background-color: #fff;
+    height: 54px;
+    font-family: 'myriad-pro-bold', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+.btnSend:hover{
+    background-color: black;
+    color: white;
+    border:1px solid #fff;
+}
+.menuFooter h1 sup{
+    font-size: 14px;
+    padding-left: 0.2rem;
+    top: -2rem;
+}
+.menuFooter h6{
+    font-family: 'Inter', sans-serif;
+}
+.menuFooter p ,.menuFooter p a{
+    color: #c5c5c5;
+}
+.borderBottom{
+    border-bottom: 1px solid #302d2d;
+}
+.textLg{
+    font-size: 50px;
+    font-family: 'myriad-pro-bold', sans-serif;
+}
+/* ================================== Works ====================== */
+.sectionStudios .nav-pills{
+    border-bottom: 1px solid gray;
+}
+.sectionStudios .nav-item .nav-link{
+    color: black;
+}
+.sectionStudios .nav-item .nav-link.active{
+    background: none;
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    border-radius: 0;
+}
+.imgFullWidth{
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+}
+/* ================================== Contact Us ================== */
+.contact{
+    background: url(../images/background.png) repeat;
+}
+.sup{
+    font-size: 14px;
+    top: -.8rem;
+}
+.sectionText{
+    margin-top: -4rem;
+}
+.formContact .form-control{
+    border-top: 0px;
+    border-right: 0px;
+    border-radius: 0;
+    padding-left: 3px;
+    color: #979797;
+    border-left: 0px;
+}
+.formContact .form-control:focus{
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    box-shadow: none;
+    border-bottom: 2px solid #f9ed30;
+}
+/* ================================== Swiper ======================= */
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+}
+/* ================================== About Us ===================== */
+.heightDev {
+    height: 180px;
+    width: 100%;
+    position: relative;
+}
+.heightDev img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/* =============================== */
+/* .imgTeam{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+} */
+.btnJoin{
+    background-color: white;
+    border: 1px dashed black;
+    /* min-height: 340px; */
+}
+/* ================================== Projects page ================= */
+.projectBg{
+    background: url(../images/project.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectBg2{
+    background: url(../images/projects/sbalmaza1.png);
+    background-size: cover;
+    object-fit: cover;
+}
+.projectBg3{
+    background: url(../images/projects/costa1.png);
+    background-size: cover;
+    object-fit: cover;
+}
+/* =========================================== */
+.projectTella{
+    background: url(../images/projects/telal1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectcosta{
+    background: url(../images/projects/costa1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectHacienda{
+    background: url(../images/projects/hacienda2.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectKrhacienda{
+    background: url(../images/projects/krhacienda1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectRkhacienda{
+    background: url(../images/projects/rkhacienda1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectSmhacienda{
+    background: url(../images/projects/smhacienda1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectTnhacienda{
+    background: url(../images/projects/tnhacienda1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectAlmaza{
+    background: url(../images/projects/almaza1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectSbalmaza{
+    background: url(../images/projects/sbalmaza1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectbazarna{
+    background: url(../images/projects/bazarna.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectIlBoscotwin{
+    background: url(../images/projects/IL\ BOSCO\ TWINSHOUSE\ MOCKUP1.jpg) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectM2propertybooth{
+    background: url(../images/projects/M2-EGYPTPROPERTYSHOWDUBAIBOOTH1.jpg) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMasyafbouti{
+    background: url(../images/projects/elmasyafbouti1.jpg) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;   
+}
+.project3percent{
+    background: url(../images/projects/3%coworking8.jpg) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;   
+}
+.projectellab{
+    background: url(../images/projects/ellab8.jpg) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;   
+}
+.projectmasyafarch{
+    background: url(../images/projects/elmasyaf-arch1.jpg) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMasyafinterior{
+    background: url(../images/projects/elmasyafinterior2.jpg) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectSsalmaza{
+    background: url(../images/projects/ssalmaza1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectShome{
+    background: url(../images/projects/shome1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectIlboscoMockup{
+    background: url(../images/projects/ilboscostandalonemockup2.jpg) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectAaLondon{
+    background: url(../images/projects/aLondon1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMipBooth2020{
+    background: url(../images/projects/mipboothcityscape20204.jpg) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+
+.projectemaarsalesmockup{
+    background: url(../images/projects/emaarsalesmockup4.jpg) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectArabella{
+    background: url(../images/projects/arabella1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+
+}
+.projectskrhacienda{
+    background: url(../images/projects/krhacienda6.JPG) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+
+}
+
+.projectAstelal{
+    background: url(../images/projects/telal.jpg) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectPool{
+    background: url(../images/projects/poolhouse1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectNile{
+    background: url(../images/projects/nileplaza1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMirage{
+    background: url(../images/projects/mirage1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectAllegria{
+    background: url(../images/projects/allegria1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectKatameya{
+    background: url(../images/projects/katameya1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectSlondon{
+    background: url(../images/projects/slondon1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectLake{
+    background: url(../images/projects/lake1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectCarina{
+    background: url(../images/projects/carina1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectHuawei{
+    background: url(../images/projects/huawei1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectFekr{
+    background: url(../images/projects/fekr1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectAin{
+    background: url(../images/projects/ain1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectEmaar{
+    background: url(../images/projects/emaar1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectEmaarcity{
+    background: url(../images/projects/emaarcity1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectEmaarsquare{
+    background: url(../images/projects/sales1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMegypt{
+    background: url(../images/projects/megypt1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMnorth{
+    background: url(../images/projects/mnorth1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMisritaliaprop{
+    background: url(../images/projects/misritaliaprop1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMisritaliatwin{
+    background: url(../images/projects/misritaliatwin1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMisritaliastand{
+    background: url(../images/projects/misritaliastand1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMisritaliacity{
+    background: url(../images/projects/misritaliacity1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMisritalia{
+    background: url(../images/projects/misritalia1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMdevelopment{
+    background: url(../images/projects/mdevelopment1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMtrio{
+    background: url(../images/projects/mtrio1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMonsite{
+    background: url(../images/projects/monsite1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMresturant{
+    background: url(../images/projects/mresturant1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMnorthfinish{
+    background: url(../images/projects/mnorthfinish1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMnorthhotel{
+    background: url(../images/projects/mnorthhotel1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectZamalek{
+    background: url(../images/projects/zamalek1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectCapital{
+    background: url(../images/projects/capital1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectCarinahead{
+    background: url(../images/projects/carinahead1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectBaky{
+    background: url(../images/projects/baky1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectNamaa{
+    background: url(../images/projects/namaa1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectLsallergria{
+    background: url(../images/projects/lsallegria1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.bgOverlay{
+    background: rgba(36, 41, 44,0.6);
+    min-height: 100vh;
+}
+.bgOverlay2{
+    background-color: rgba(36, 41, 44,0.4);
+    height: 450px;
+}
+.bgOverlay3{
+    background-color: rgba(36, 41, 44,0.8);
+    height: 450px;
+}
+.btnHeight{
+    height: 3.6rem;
+}
+.btnCircle{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.textLight{
+    color: rgb(228, 221, 209);
+}
+.textVLg{
+    font-size: 90px;
+    text-transform: uppercase;
+}
+.textMuted{
+    color: #c5c5c5;
+}
+.absoluteSection{
+    position: absolute;
+    bottom: 40px;
+    width: auto;
+}
+.imageTall{
+    object-fit: cover;
+}
+.imgHuman{
+    height: 341px;
+    width: 100%;
+    object-fit: cover;
+}
+.modalMenu .modal-body .d-flex .w-100 h2:first-child a:hover,.activeAbout{
+    background: linear-gradient(to top, white 55%, #F48673 52%, #F48673 42%, #F48673 82%);
+    padding-bottom: 0.5rem;
+    background-position: 3rem 1.5rem;
+}
+.modalMenu .modal-body .d-flex .w-100 h2:nth-child(2) a:hover,.activeWorks{
+    background: linear-gradient(to top, white 55%, #8CC8E8 52%, #8CC8E8 42%, #8CC8E8 82%);
+    padding-bottom: 0.5rem;
+    background-position: 3rem 1.5rem;
+}
+.modalMenu .modal-body .d-flex .w-100 :nth-child(3) a:hover,.activeStudios{
+    background: linear-gradient(to top, white 55%, #FFEA3A 52%, #FFEA3A 42%, #FFEA3A 82%);
+    padding-bottom: 0.5rem;
+    background-position: 3rem 1.5rem;
+}
+.modalMenu .modal-body .d-flex .w-100 h2:nth-child(4) a:hover,.activeHumans{
+    background: linear-gradient(to top, white 55%, #F6AEBF 52%, #F6AEBF 42%, #F6AEBF 82%);
+    padding-bottom: 0.5rem;
+    background-position: 3rem 1.5rem;
+}
+.modalMenu .modal-body .d-flex .w-100 h2:nth-child(5) a:hover,.activePress{
+    background: linear-gradient(to top, white 55%, #8ACFBF 52%, #8ACFBF 42%, #8ACFBF 82%);
+    padding-bottom: 0.5rem;
+    background-position: 3rem 1.5rem;
+}
+.modalMenu .modal-body .d-flex .w-100 h2:last-child a:hover,.activeContact{
+    background: linear-gradient(to top, white 55%, #BED860 52%, #BED860 42%, #BED860 82%);
+    padding-bottom: 0.5rem;
+    background-position: 3rem 1.5rem;
+}
+.markRed{
+    background: linear-gradient(to top, #f0f0f0 55%, #d96651 52%, #d96651 42%, #d96651 82%);
+    padding-bottom: 0.5rem;
+    background-position: 3rem 1.1rem;
+}
+.yellowMarked{
+    background: linear-gradient(to top, #f0f0f0 55%, #FFEA3A 52%, #FFEA3A 42%, #FFEA3A 82%);
+    padding-bottom: 0.5rem;
+    background-position: 3rem 1.5rem; 
+}
+.yellowMarkWhite{
+    background: linear-gradient(to top, white 55%, #FFEA3A 52%, #FFEA3A 42%, #FFEA3A 82%);
+    padding-bottom: 0.5rem;
+    background-position: 3rem 1.5rem; 
+}
+.colorHand{
+    background: linear-gradient(to top, #f0f0f0 55%, #8CC8E8 52%, #8CC8E8 42%, #8CC8E8 82%);
+    padding-bottom: 0.5rem;
+    background-position: 3rem 1.1rem;
+}
+.humansMarked{
+    background: linear-gradient(to top, #f0f0f0 55%, #F6AEBF 52%, #F6AEBF 42%, #F6AEBF 82%);
+    padding-bottom: 0.5rem;
+    background-position: 3rem 1.1rem;
+}
+.markedPress{
+    background: linear-gradient(to top, #f0f0f0 55%, #8ACFBF 52%, #8ACFBF 42%, #8ACFBF 82%);
+    padding-bottom: 0.5rem;
+    background-position: 3rem 1.5rem;
+}
+.imgProject{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+/* ================================== Media Quereies ================ */
+@media screen and (min-width:1400px){
+    .textMob a{
+        font-size: 3.8rem;
+        line-height: 6rem;
+    }
+    .rightText .text18{
+        font-size: 28px;
+    }
+}
+@media screen and (min-width:1300px){
+    .imgSpaces{
+        height: 700px;
+    }
+    /* .imgIntro{
+        object-fit: cover;
+        height: 650px;
+        width: 100%;
+    } */
+    .linkHover:hover{
+        color: black;
+        /* background-color: #d3c832; */
+        background: linear-gradient(to top, white 55%, #fbee34 52%, #fbee34 42%, #fbee34 82%);
+        padding-bottom: 0.5rem;
+        background-position: 3rem 1.5rem;
+    }
+}
+@media screen and (min-width:1100px){
+    .btnJoin{
+        min-height: 340px;
+    }
+    /* .imgIntro{
+        object-fit: cover;
+        height: 650px;
+        width: 100%;
+    } */
+}
+@media screen and (max-width:991px){
+    .bgImage{
+        padding: 0rem 1rem;
+        position: relative;
+    }
+    .imgFullWidth{
+        height: 200px;
+    }
+    .absoluteSection{
+        position: relative;
+    }
+    .imageTall{
+        height: 500px;
+    }
+    .AbsoluteMob{
+        position: absolute;
+        bottom: 0;
+    }
+    .projectTella,.projectcosta,.projectHacienda,.projectKrhacienda,.projectRkhacienda,.projectArabella,
+    .projectSmhacienda,.projectTnhacienda,.projectAlmaza,.projectSbalmaza,.projectSsalmaza,.projectShome,.projectAaLondon,
+    .projectPool,.projectNile,.projectMirage,.projectAllegria,.projectKatameya,.projectLake,.projectSlondon,.projectCarina,
+    .projectHuawei,.projectFekr,.projectAin,.projectEmaar,.projectEmaarcity,.projectEmaarsquare,.projectMegypt,.projectMnorth,
+    .projectMisritaliaprop,.projectMisritaliatwin,.projectMisritaliastand,.projectMisritaliacity,.projectMisritalia,
+    .projectMdevelopment,.projectMtrio,.projectMonsite,.projectMresturant,.projectMnorthfinish,.projectMnorthhotel,.projectZamalek,
+    .projectCapital,.projectCarinahead,.projectBaky,.projectNamaa,.projectLsallergria{
+        background-repeat: repeat;
+        background-size: cover;
+    }
+}
+@media screen and (max-width:768px){
+    .textMediaLarge{
+        font-size: 27px;
+        line-height: normal;
+    }
+}
+@media screen and (max-width:550px){
+    footer h1 ,.textLg{
+        font-size: 36px;
+    }
+    .btnSend ,.btnBlack{
+        width: 100%;
+    }
+    .width75{
+        width: 100%;
+    }
+    .image{
+        height: 460px;
+    }
+    .imgAbsolute{
+        margin-right: 2rem;
+        width: 40%;
+        margin-bottom: -4rem;
+    }
+    .textMob a{
+        font-size: 20px;
+    }
+    .textVLg{
+        font-size: 60px;
+    }
+}
+.scroll-down {
+    height: 50px;
+    width: 30px;
+    border: 2px solid black;
+    position: relative;
+    left: 50%;
+    bottom: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .scroll-down::before,
+  .scroll-down::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -100%) rotate(45deg);
+    border: 2px solid black;
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
+  }
+  .scroll-down::before {
+    top: 30%;
+    animation-delay: 0.3s;
+    /* animation: scroll-down 1s ease-in-out infinite; */
+  }
+  
+  @keyframes scroll-down {
+    0% {
+      /* top:20%; */
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    100% {
+      top: 90%;
+      opacity: 0;
+    }
+  }

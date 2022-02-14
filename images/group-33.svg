@@ -1,0 +1,12 @@
+<svg width="471" height="242" viewBox="0 0 471 242" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(21 21)" fill="none" fill-rule="evenodd">
+        <path d="M84.573 48.5c.154 12.476-.035 24.953-.23 37.428-12.114.237-24.274.377-36.434.233l-.504-.005-.002.503a3109.824 3109.824 0 0 0 0 30.094c12.757.498 24.967.498 37.176.545v35.527h30.265v-35.562c8.33.19 16.661.028 24.992-.184l7.644-.2c.849-.023 1.698-.044 2.547-.065.472-3.79.46-7.082.45-10.377-.022-6.58-.043-13.167-.108-19.732-12.08-.543-23.709-.544-35.384-.544l-.047-5.82c-.09-10.617-.178-21.211-.09-31.841z" stroke="#000" fill="#000" fill-rule="nonzero"/>
+        <circle cx="100" cy="100" r="100"/>
+        <text font-family="MyriadPro-Bold, Myriad Pro" font-size="21" font-weight="bold" fill="#000">
+                    <tspan x="42" y="29">                                                         AWARD WINNING</tspan>
+                </text>
+        <text font-family="MyriadPro-Bold, Myriad Pro" font-size="21" font-weight="bold" fill="#000">
+                    <tspan x="12" y="19">INTERNATIONAL DESIGN FIRM</tspan>
+                </text>
+    </g>
+</svg>
