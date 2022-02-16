@@ -182,6 +182,13 @@ textBlack{
     color: black;
 }
 
+.text-end{
+    font-family: 'Myriad Pro';
+}
+
+.borderYellow{
+    font-family: 'Myriad Pro';
+}
 
 .textBlack:hover{
     color: #000;
