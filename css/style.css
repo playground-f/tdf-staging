@@ -1,14 +1,14 @@
 /* roboto-regular - latin */
+
 @font-face {
-    font-family: "MyriadPro-Light", "Myriad Pro Light",
-    "Myriad Pro"; 
+    font-family: "MyriadPro-Light", "Myriad Pro Light", "Myriad Pro"; 
     font-style: normal;
     font-weight: 300;
     src: url('../fonts/MYRIADPRO-REGULAR.OTF'); /* IE9 Compat Modes */font-weight:100;
     }
 
 .body{
-    font-family: 'myriad-pro-bold', sans-serif;
+    font-family: 'myriad-pro-bold';
     cursor: cell;
 
 }
@@ -104,7 +104,7 @@
     max-height: 600px;
 }
 .cursorPointer{
-    cursor: pointer;
+    cursor: cell;
 }
 .imgAbsolute{
     mix-blend-mode: multiply;
@@ -116,8 +116,10 @@
 }
 .firstSection{
     background: url(../images/backgroundwhite.png) repeat;
+    cursor: cell;
 }
 .textAbsolute{
+    cursor: cell;
     position: absolute;
     top: 20px;
     left: 40px;
@@ -128,8 +130,10 @@
     height: 400px;
     width: 5rem;
     left: -2rem;
+    cursor: cell;
 }
 .bgImage{
+    cursor: cell;
     background: url(../images/plus.png) repeat;
     height: 150px;
     padding: 0rem 4rem;
@@ -137,12 +141,15 @@
     right: 0;
 }
 .prominentSection{
+    cursor: cell;
     margin-top: -7rem;
 }
 .content {
     position: relative;
+    cursor: cell;
 }
 .image {
+    cursor: cell;
     opacity: 1;
     display: block;
     width: 100%;
@@ -161,11 +168,12 @@
     backface-visibility: hidden;
 }
 .overlay {
+    cursor: cell;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
-    cursor: pointer;
+    cursor: cell;
     right: 0;
     height: 100%;
     width: 100%;
@@ -175,6 +183,7 @@
 }
   
 .content:hover .overlay {
+    cursor: cell;
     opacity: 1;
 }
 
@@ -183,19 +192,23 @@ textBlack{
 }
 
 .text-end{
+    cursor: cell;
     font-family: 'Myriad Pro';
 }
 
 .borderYellow{
+    cursor: cell;
     font-family: 'Myriad Pro';
 }
 
 .textBlack:hover{
+    cursor: cell;
     color: #000;
     text-decoration: none;
 }
   
 .text {
+    cursor: cell;
     color: white;
     font-size: 20px;
     position: absolute;
@@ -210,9 +223,11 @@ textBlack{
 }
 /* ========================== TDF Studios ================== */
 .bgYellow{
+    cursor: cell;
     background-color: #f9ed30;
 }
 .bgYellow p{
+    cursor: cell;
     color: black;
     opacity: 0.6;
 }
@@ -244,19 +259,26 @@ textBlack{
     height: 50px;
     color: white;
 }
+div{
+    cursor: cell;
+}
 .btnBlack:hover{
+    cursor: cell;
     background-color: white;
     border: 1px solid black;
     color: black;
 }
 .bgWhitePlus{
+    cursor: cell;
     background: url(../images/backgroundwhite.png) repeat;
 }
 .width75{
+    cursor: cell;
     width: 75%;
 }
 /* ========================== Footer ======================== */
 .bgBlack{
+    cursor: cell;
     background-color: black;
 }
 footer h1{
@@ -282,18 +304,22 @@ footer h1{
     top: -2rem;
 }
 .menuFooter h6{
+    cursor: cell;
     font-family: 'Inter', sans-serif;
 }
 .menuFooter p ,.menuFooter p a{
+    cursor: cell;
     color: #c5c5c5;
 }
 .borderBottom{
     border-bottom: 1px solid #302d2d;
+    cursor: cell;
 }
 .textLg{
     font-size: 50px;
     color: black;
     font-family: 'myriad-pro-bold', sans-serif;
+    cursor: cell;
 }
 /* ================================== Works ====================== */
 .sectionStudios .nav-pills{
@@ -847,6 +873,7 @@ footer h1{
     }
     .absoluteSection{
         position: relative;
+        cursor:cell;
     }
     .imageTall{
         height: 500px;
@@ -905,7 +932,7 @@ footer h1{
     left: 50%;
     bottom: 20px;
     border-radius: 50px;
-    cursor: pointer;
+    cursor: cell;
   }
   .scroll-down::before,
   .scroll-down::after {
