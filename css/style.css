@@ -55,7 +55,7 @@
     font-size: 18px;
 }
 .txtRed{
-    color: #f48673;
+    color: #f48673 !important;
 }
 .table-responsive thead th{
     border-color: #fff !important;
