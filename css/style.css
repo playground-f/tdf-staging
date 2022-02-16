@@ -38,6 +38,11 @@
     color: #000;
     opacity: 0.6;
 }
+
+.joinfam{
+    text-decoration-color:none; 
+    color:black!important;
+}
 .fwMediam{
     font-size: 21px;
 }
@@ -397,6 +402,7 @@ footer h1{
     object-fit: cover;
 } */
 .btnJoin{
+    color: black;
     background-color: white;
     border: 1px dashed black;
     /* min-height: 340px; */
@@ -855,6 +861,7 @@ footer h1{
 }
 @media screen and (min-width:1100px){
     .btnJoin{
+
         min-height: 340px;
     }
     /* .imgIntro{
