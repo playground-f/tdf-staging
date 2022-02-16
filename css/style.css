@@ -236,13 +236,18 @@ textBlack{
     text-align: center;
 }
 /* ========================== TDF Studios ================== */
-.bgYellow{
+.bgYellowContact{
     cursor: cell;
     background-color: #BED860;
 }
 .bgYellowHome{
     cursor: cell;
     background-color: #f9ed30;}
+
+.bgYellow{
+    cursor: cell;
+    background-color: #f9ed30;}
+}
 .bgYellow p{
     cursor: cell;
     color: black;
