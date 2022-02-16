@@ -111,6 +111,11 @@
 .cursorPointer{
     cursor: cell;
 }
+.projectMasyafSales{  background: url(../images/projects/elmasyafsalescenter3.jpg) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+
+}
 .imgAbsolute{
     mix-blend-mode: multiply;
     display: block;
