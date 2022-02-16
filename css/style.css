@@ -48,7 +48,7 @@
 }
 .borderYellow{
     border-bottom: 1px solid #d3c832;
-    font-family: 'MyriadPro';
+    font-family: 'MyriadPro' ,'sans-serif'
 }
 .bgGray{
     background-color:#f0f0f0;
@@ -203,12 +203,12 @@ textBlack{
 
 .text-end{
     cursor: cell;
-    font-family: 'Myriad Pro';
+    font-family: 'helvetica', 'sans-serif';
 }
 
 .borderYellow{
     cursor: cell;
-    font-family: 'Myriad Pro';
+    font-family: 'helvetica';
 }
 
 .textBlack:hover{
